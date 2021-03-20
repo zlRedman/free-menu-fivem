@@ -1,11 +1,3 @@
-# Brutan Menu
+# Leak Free Menu FiveM
 
-Who is brutan
-
-Brutan is scammer and rename leaked menus in word, and he get you paid for this shit so i make it free
-
-
-
-Discord zlRedmanModz:
-https://discord.gg/4kMumjjvCm
-
+You need lua executor for use this menu
