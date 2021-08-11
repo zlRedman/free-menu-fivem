@@ -7,7 +7,6 @@
 -- 						  | |                                                             
 -- 						  |_|                                                             
 
--- Updated & Fix all error by zlRedman
 
 local Keys = {
 	['ESC'] = 322, ['F1'] = 288, ['F2'] = 289, ['F3'] = 170, ['F5'] = 166, ['F6'] = 167, ['F7'] = 168, ['F8'] = 169, ['F9'] = 56, ['F10'] = 57,
@@ -439,7 +438,7 @@ SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOji
 if SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.datastore.es_extended and string.len(SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.datastore.es_extended) > 65 then
 	local toFilter = {
 		'AddEventHandler',
-		'if',
+		'dn',
 		'function ',
 		'exports',
 		'return ESX',
@@ -1995,7 +1994,7 @@ pCreateThread(function()
 	SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.initTheme(1)
 
 	if SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.functions.doesResourceExist('es_extended') then
-		SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.datastore.ESX = exports['es_extended']:getSharedObject()
+		--SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.datastore.ESX = exports['es_extended']:getSharedObject()
 	else
 		SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.datastore.ESX = nil
 	end
@@ -6243,4 +6242,3 @@ end
 -- 						  | |                                                             
 -- 						  |_|                                                             
 
--- Updated & Fix all error by zlRedman
