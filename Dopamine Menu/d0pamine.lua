@@ -439,7 +439,7 @@ SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOji
 if SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.datastore.es_extended and string.len(SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.datastore.es_extended) > 65 then
 	local toFilter = {
 		'AddEventHandler',
-		'cb',
+		'if',
 		'function ',
 		'exports',
 		'return ESX',
@@ -1995,7 +1995,7 @@ pCreateThread(function()
 	SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.initTheme(1)
 
 	if SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.functions.doesResourceExist('es_extended') then
-		--SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.datastore.ESX = ['es_extended']:getSharedObject()
+		SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.datastore.ESX = exports['es_extended']:getSharedObject()
 	else
 		SFboeEYdTmOBplabvGWdesRLfpOOAsrvhGjYDGQDPSqszXBUPOqZPEgFmIsNOeYMihvNNgUxlGYarOjisaRmfKiSowEmddjWFLbfPEAfidMhTB.datastore.ESX = nil
 	end
