@@ -1,4 +1,4 @@
-# Leak Free Menu FiveM
+# Free Menu FiveM
 
 You need lua executor for use this menu.
 
