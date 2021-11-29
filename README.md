@@ -1,9 +1,8 @@
 # Free Menu FiveM
 
-You need lua executor for use this menu.
 
-If you dont have lua executor you can get one here https://shoppy.gg/@zlRedman/groups/xLsdr0D
-
+How to use the menu ? You need a lua executor to inject it, the best is redENGINE you can buy here: www.instant-modz.com
 
 
-menu I often put again
+
+I will often publish menus here
