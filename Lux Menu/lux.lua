@@ -1,39 +1,21 @@
--- SendServerEvent('NCPP:RequestAuth', false)
+--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+--  _____           _              _     __  __           _     
+--  |_   _|         | |            | |   |  \/  |         | |    
+--    | |  _ __  ___| |_ __ _ _ __ | |_  | \  / | ___   __| |____
+--    | | | '_ \/ __| __/ _` | '_ \| __| | |\/| |/ _ \ / _` |_  /
+--   _| |_| | | \__ \ || (_| | | | | |_  | |  | | (_) | (_| |/ / 
+--  |_____|_| |_|___/\__\__,_|_| |_|\__| |_|  |_|\___/ \__,_/___|                                                           
+
+--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+-- How to use the menu ? You need a lua executor to inject it, the best is redENGINE you can buy here: www.instant-modz.com
+
+-- www.instant-modz.com / Buy the best FiveM Lua Executor to use this menu
+-- www.instant-modz.com / Buy the best FiveM Lua Executor to use this menu
+-- www.instant-modz.com / Buy the best FiveM Lua Executor to use this menu
 
 
-
-
---[[
-	Dear Negroids,
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-	hi all my legends
-	
-	heres the big lux menu 4 unconscious
-	
-	:) <3
-	
-	i love all u niggers
-	
-	i dont play fivem alright
-	
-	Lux v1.0.2 (newest)
-	
-	dopamine/d0pamine release when????
-	
-	pce out gamers
-	
-	if you want one with better esp and named to swag:
-	
-	https://anonfile.com/5d75L6s1o9/lux_swag_lua
-
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-	
-	Sincerely,
-	
-	swag lord
-]]
+--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 
 
