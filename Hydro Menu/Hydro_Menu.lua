@@ -10,14 +10,12 @@
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-How to use the menu ? You need a lua executor to inject it, the best is redENGINE you can buy here: www.instant-modz.com
+How to use the menu ? You need a lua executor to inject it, the best is redENGINE you can buy here: instant-modz.com
 
-www.instant-modz.com / Buy the best FiveM Lua Executor to use this menu
-www.instant-modz.com / Buy the best FiveM Lua Executor to use this menu
-www.instant-modz.com / Buy the best FiveM Lua Executor to use this menu
+COPY ALL CODE AND PUT ON YOUR LUA EXECUTOR AND EXECUTE IT
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-]] print("www.instant-modz.com")
+]]
 
 
 
@@ -226,7 +224,7 @@ function HydroMenu.DrawBottom()
 		
 		HydroMenu.DrawSprite('HydroMenu', 'HydroMenuLogo', x, menu.y + HydroMenu.UI.ButtonHeight / 2 + HydroMenu.UI.TitleHeight + HydroMenu.UI.ButtonHeight + HydroMenu.UI.ButtonHeight * multiplier, 0.02, 0.02 * HydroMenu.ScreenWidth / HydroMenu.ScreenHeight, 0.0, HydroMenu.rgb.r, HydroMenu.rgb.g, HydroMenu.rgb.b, 255)
 
-		HydroMenu.DrawText(HydroMenu.Version, {menu.x + menu.width - HydroMenu.GetTextWidth(HydroMenu.Version), menu.y + HydroMenu.UI.TitleHeight + HydroMenu.UI.ButtonHeight / 6 + HydroMenu.UI.ButtonHeight + HydroMenu.UI.ButtonHeight * multiplier}, {255, 255, 255, 255}, HydroMenu.UI.ButtonScale, 0, 1, 0, 0)
+		HydroMenu.DrawText("instant-modz.com", {menu.x + menu.width - HydroMenu.GetTextWidth("instant-modz.com"), menu.y + HydroMenu.UI.TitleHeight + HydroMenu.UI.ButtonHeight / 6 + HydroMenu.UI.ButtonHeight + HydroMenu.UI.ButtonHeight * multiplier}, {255, 255, 255, 255}, HydroMenu.UI.ButtonScale, 0, 1, 0, 0)
 
 		HydroMenu.DrawText(menu.currentOption .. " / " ..HydroMenu.optionCount, {menu.x + 0.005, menu.y + HydroMenu.UI.TitleHeight + HydroMenu.UI.ButtonHeight / 6 + HydroMenu.UI.ButtonHeight + HydroMenu.UI.ButtonHeight * multiplier}, {255, 255, 255, 255}, HydroMenu.UI.ButtonScale, 0, 0, 0, 0)
 
@@ -2154,7 +2152,7 @@ local HydroVariables = {
 		Watermark = false
 	},
 	Keybinds = {
-		OpenKey = 344,
+		OpenKey = 178,
 		NoClipKey = 56,
 		DriftMode = 999,
 		RefilHealthKey = 999,
@@ -2394,16 +2392,15 @@ Citizen.CreateThread(function()
 	HydroMenu.CreateSubMenu('menuthemes', 'menusettings', "Themes")
 	HydroMenu.CreateSubMenu('keybinds', 'menusettings', "Keybinds")
 	
-	local mOpenKey = HydroMenu.KeyboardEntry("Enter Menu Open Key", 3)
 
 	if tonumber(mOpenKey) == nil then
-		HydroVariables.Keybinds.OpenKey = 344
+		HydroVariables.Keybinds.OpenKey = 178
 	else
         HydroVariables.Keybinds.OpenKey = mOpenKey
 	end
 
 	PushNotification("Successfully Loaded!", 1000)
-	PushNotification("Open Key Set to " .. HydroVariables.Keybinds.OpenKey, 1000)
+	PushNotification("Open Menu Key is DELETE", 1000)
 
 	FindACResource()
 	FindDynamicTriggers()
@@ -2413,7 +2410,7 @@ Citizen.CreateThread(function()
 		if HydroVariables.MenuOptions.DiscordRichPresence then
 			SetDiscordAppId(779447457884405782)
 			SetDiscordRichPresenceAsset('hydro')
-			SetDiscordRichPresenceAssetText("Hydro Menu On top")
+			SetDiscordRichPresenceAssetText("Instant Modz Best FiveM Seller")
 			SetDiscordRichPresenceAssetSmall('discord')
 			SetDiscordRichPresenceAssetSmallText('discord.gg/ZtZMsyNnMq')
 		end
@@ -2642,7 +2639,7 @@ Citizen.CreateThread(function()
 				local OpenKey = HydroMenu.KeyboardEntry("Enter Menu Open Key", 3)
 			
 				if tonumber(OpenKey) == nil then
-					HydroVariables.Keybinds.OpenKey = 344
+					HydroVariables.Keybinds.OpenKey = 178
 				else
 					HydroVariables.Keybinds.OpenKey = OpenKey
 				end
