@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+body {
+  @apply bg-bg text-text antialiased;
+  background-image: radial-gradient(circle at 20% 10%, rgba(110, 91, 255, 0.18), transparent 40%), radial-gradient(circle at 80% 0%, rgba(0, 209, 255, 0.15), transparent 35%);
+}
+
+.card-hover {
+  @apply transition-transform duration-300 hover:-translate-y-1 hover:scale-[1.02];
+}
+
+.glass {
+  background: rgba(18, 20, 32, 0.68);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

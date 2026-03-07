@@ -1,10 +1,31 @@
-# Free Menu FiveM
+# Cinora — Premium Streaming Demo
 
+Cinora is a full-stack streaming platform demo built with Next.js, Prisma, NextAuth, and Tailwind CSS.
 
-How to use the menu ? You need a lua executor to inject it, the best is redENGINE you can buy here: 
+## Features
+- Cinematic landing + premium browse experience
+- Auth (register/login) with credentials
+- Multi-profile model per account
+- Continue watching with saved playback position
+- My List / favorites
+- Search, title details, watch page
+- Mock admin analytics dashboard
+- Responsive dark luxury design system
 
-www.instant-modz.com/buy-redengine
+## Quick start
+1. Install dependencies
+2. Set environment variables from `.env.example`
+3. Run Prisma migration + seed
+4. Start dev server
 
+```bash
+npm install
+cp .env.example .env
+npx prisma migrate dev --name init
+npm run seed
+npm run dev
+```
 
-
-I will often publish menus here
+Demo login:
+- `demo@cinora.app`
+- `demo1234`
